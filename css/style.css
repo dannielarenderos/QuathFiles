@@ -8,34 +8,51 @@
 ::before,
 ::after {
     box-sizing: inherit;
-    color: #ffffffff;
 }
 
-
+header {
+    background-color: #3a0b0b;
+}
 body {
-    margin: 0;
     height: 100%;
-    background-color: #ffffff;
     font-family: 'Poppins', sans-serif;
-    color: #777777;
+    color: #ffffff;
 }
 
 .container{
-    background-color: #1f0202;
  height: 100%;
-    width: 70%;
-    align-content: left;
+display: grid;
+grid-template-columns: 70% 30%;
 
 }
+
+section {
+    padding: 2em;
+}
+.LogSign {
+    background-color: #ffffff;
+    color: #010d14;
+}
+
+
+.LogSign div {
+    margin-bottom: 1em;
+width:100%;
+align-items: center;
+}
+
 
 img {
     max-width: 500px;
     max-height: 580px;
     object-fit: cover;
 }
-
 h2 {
-font-size: 3em;
+    margin: 0;
+   
+    font-family: 'IM Fell French Canon', serif;
+
+    font-size: 3em;
 }
 
 li {
@@ -49,26 +66,26 @@ a {
     text-decoration: none;
 }
 
-section{
-    margin: 0;
-    padding: 0;
-display: grid;
-grid-template-columns: 50% 20%;
-}
 
 .Seccion1{
-background: #114a70
+    background-color: #3a0b0b;
+
 }
 
+
 .Seccion2{
-    background: #2e2a2a
-    }
+    background-color: #01111b;   
+
+}
 
     .Seccion3{
-        background-color: #e4c699;
-    }
+        background-color: #555252;
+
+      }
 
     footer
     {
         background-color: #000000;
+        margin: 0;
+       
     }
